@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://wallpaperaccess.com/full/5404065.jpg);
+  background-size: cover;
+}
+
+.main {
+  border: 5px solid #ffa500;
+  padding: 4rem;
+  border-radius: 15px;
+  text-align: center;
+  background-color: gray;
+}
+
+h1 {
+  color: orange;
+}
+
+p {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+p span {
+  letter-spacing: 2.5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+label span {
+  letter-spacing: 2.5px;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+  outline: orange solid 2px;
+  border: 1px solid orange;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#balance {
+  font-weight: bold;
+}
